@@ -36,29 +36,33 @@ Needed info
     - Wallbang
       - Player is shot through wall preemptively
 
-## R6 API
-Basic unchangeable stats useful for strategy
+# R6 API
+## Basic unchangeable stats useful for strategy
 https://r6data.eu/api-docs#base-url 
-Player data
+
+## Player data
 https://r6.tracker.network/r6siege/profile/xbl/Chancesavitar/overview 
 https://tracker.gg/developers/docs/getting-started 
-AI analysis
-Google AI Studio — widely considered the best free AI API available. You get access to Gemini 2.5 Pro and Flash with no credit card required. The API is also OpenAI-compatible, so it's easy to plug into existing code. Awesome Agents
+
+# AI analysis
+- Google AI Studio — widely considered the best free AI API available. You get access to Gemini 2.5 Pro and Flash with no credit card required. The API is also OpenAI-compatible, so it's easy to plug into existing code. Awesome Agents
 Other solid free options:
-Groq — free access to open-source models like Llama with extremely fast inference. No credit card needed for the free tier. DEV Community
-OpenRouter — lets you try 400+ models with one API key, including free tiers for models like DeepSeek and Llama. AIMLAPI
-Puter.js — a unique "user-pays" model where you can access GPT models from your frontend with no API key at all, and users cover their own usage costs. Puter
+- Groq — free access to open-source models like Llama with extremely fast inference. No credit card needed for the free tier. DEV Community
+- OpenRouter — lets you try 400+ models with one API key, including free tiers for models like DeepSeek and Llama. AIMLAPI
+- Puter.js — a unique "user-pays" model where you can access GPT models from your frontend with no API key at all, and users cover their own usage costs. Puter
 
 ## Computer Vision
 Computer Vision is Crucial to analyze how the player is moving and playing for future suggestions
+
 To use AI API access and computer vision (CV) for game data analysis, you must capture visual frames from the game, process them through a CV model or API, and then analyze the extracted metadata to derive insights. This process is used across physical sports for tactical analysis and video games for botting or strategic coaching. [1, 2, 3, 4, 5]
+
 Core Implementation Workflow
-Data Capture: Capture game footage via screen recording, direct webcam feed, or high-speed cameras.
-Preprocessing: Use libraries like OpenCV to resize, filter, or normalize images to make them readable for AI models.
-Analysis via AI APIs or Models:
-Cloud APIs: Use services like Google Cloud Vision API or AWS Rekognition for high-level object and text detection (OCR).
-Custom Models: Deploy models like YOLO (You Only Look Once) via the TensorFlow Object Detection API to track specific entities like players, balls, or UI elements in real-time.
-Metadata Extraction: Convert visual detections into structured data, such as coordinates, player speeds, or in-game stats like health and gold.
+- Data Capture: Capture game footage via screen recording, direct webcam feed, or high-speed cameras.
+- Preprocessing: Use libraries like OpenCV to resize, filter, or normalize images to make them readable for AI models.
+- Analysis via AI APIs or Models:
+- Cloud APIs: Use services like Google Cloud Vision API or AWS Rekognition for high-level object and text detection (OCR).
+- Custom Models: Deploy models like YOLO (You Only Look Once) via the TensorFlow Object Detection API to track specific entities like players, balls, or UI elements in real-time.
+- Metadata Extraction: Convert visual detections into structured data, such as coordinates, player speeds, or in-game stats like health and gold.
 Strategic Analysis
 
 
