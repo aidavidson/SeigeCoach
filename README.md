@@ -3,7 +3,7 @@
 Description: this tracker will look at player stats, and current match information based on data of game strategy operators are suggested to players, along with weapons fitting their ability, after observing past data and current data suggestions are made to fix playstyle, bad habits, and game sensitivity for the player so they can progress in the game. This feature will of course be prevented to be used in ranked as it is a training software not intended to get AI help cheating ranked games 
 
 
-##What needs to be stored
+## What needs to be stored
 
 - Videos of Gameplay
 - keystrokes/ controller inputs (maybe at certain times e.g. death/kill …
@@ -36,7 +36,7 @@ Needed info
     - Wallbang
       - Player is shot through wall preemptively
 
-##R6 API
+## R6 API
 Basic unchangeable stats useful for strategy
 https://r6data.eu/api-docs#base-url 
 Player data
@@ -49,7 +49,7 @@ Groq — free access to open-source models like Llama with extremely fast infere
 OpenRouter — lets you try 400+ models with one API key, including free tiers for models like DeepSeek and Llama. AIMLAPI
 Puter.js — a unique "user-pays" model where you can access GPT models from your frontend with no API key at all, and users cover their own usage costs. Puter
 
-##Computer Vision
+## Computer Vision
 Computer Vision is Crucial to analyze how the player is moving and playing for future suggestions
 To use AI API access and computer vision (CV) for game data analysis, you must capture visual frames from the game, process them through a CV model or API, and then analyze the extracted metadata to derive insights. This process is used across physical sports for tactical analysis and video games for botting or strategic coaching. [1, 2, 3, 4, 5]
 Core Implementation Workflow
